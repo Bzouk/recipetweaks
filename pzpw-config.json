@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Konijima/pzpw-config-schema/master/pzpw-config.schema.json",
+  "mods": {
+    "recipetweaks": {
+      "name": "RecipeTweaks",
+      "description": "Recipe tweaks api for project Zomboid",
+      "modversion":"0.1.0",
+      "url": "https://github.com/Bzouk/recipetweaks"
+    },
+    "recipeteaksexample": {
+      "name": "RecipeTweaksExamaple",
+      "description": "Few examples how to use Recipe tweaks api. ",
+      "modversion":"0.1.0",
+      "require":"Hydrocraft,DLTS,sapphcooking",
+      "url": "https://github.com/Bzouk/recipetweaks"
+    }
+  },
+  "workshop": {
+    "title": "RecipeTweaks",
+    "visibility": "public",
+    "id": 3139510653,
+    "mods": [
+      "recipetweaks",
+      "recipeteaksexample"
+    ],
+    "tags": [
+      "Build 41",
+      "Framework",
+      "Items"
+    ],
+    "author": [
+      "Bzouk"
+    ]
+  }
+}
